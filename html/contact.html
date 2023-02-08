@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <script src="https://kit.fontawesome.com/3117a765a7.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <main>
+        <div class="contact-cointainer">
+
+            <div class="box1">
+                <div class="contact-intro">
+                    <div class="contact-intro-info">
+                        <header>
+                            <nav>
+                                <div class="header-boxes">
+                                    <div class="logo"><a href="/index.html">Saiesh</a></div>
+                                </div>
+                                <div class="header-boxes1">
+                                    <input type="checkbox" id="click">
+                                    <label for="click" class="menu-btn" id="toggle-scroll-button">
+                                        <i id="icon" class="fas fa-bars"></i>
+                                    </label>
+                                    <ul class="header-options">
+                                        <li><a href="/index.html">Home</a></li>
+                                        <li class="none"></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li class="none"></li>
+                                        <li><a href="gallery.html">Gallery</a></li>
+                                        <li class="none"></li>
+                                        <li><a href="contact.html ">Contact</a></li>
+                                    </ul>
+                                </div>
+                                <div class="header-boxes">
+                                    <ul class="logos">
+                                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                                        <li><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+                                        <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </header>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="box2">
+                <div class="contact-box2">
+                    <h1>Lets Get In Touch</h1>
+                    <div class="contact-cointainer-b">
+                        <div class="phone">
+                            <div class="contact-inf">
+                                <i class="fa-solid fa-phone"></i>
+                                <p>+91 888423284</p>
+                            </div>
+                        </div>
+                        <div class="address">
+                            <div class="contact-inf">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p>Bengaluru, Karnataka</p>
+                            </div>
+                        </div>
+                        <div class="mail">
+                            <div class="contact-inf">
+                                <i class="fa-solid fa-envelope"></i>
+                                <p>saieshacharayaphotography@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="social"></div>
+                    </div>
+                </div>
+                <div class="my-photo">
+                    <div class="m-photo">
+                        <img src="/bacj.jpg" alt="" srcset="">
+                        <div class="text-about">
+                            <h2>Saiesh Acharaya H S</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box3">
+                <div class="contact-boxes">
+                    <div class="contact-box1">
+                        <div class="leave">
+                            <h1>Leave a Message</h1>
+                            <div class="boderrr"></div>
+                        </div>
+                        <form action="">
+                            <div class="form-name">
+
+                                <input type="text" name="Name" id="name" oninput="validateName()" placeholder="Name">
+                                <div id="nameError" class="form-errors">
+                                    <p> Name is required</p>
+                                </div>
+                            </div>
+                            <div class="form-email">
+                                <input type="email" name="email" id="email" placeholder="@mail">
+                                <div id="emailError" class="form-errors">
+                                    <p> Email is required</p>
+                                </div>
+                            </div>
+                            <div class="form-subject">
+                                <input type="text" name="subject" id="subject" placeholder="Subject">
+                                <div id="subjectError" class="form-errors">
+                                    <p>Subject is required</p>
+                                </div>
+                            </div>
+                            <div class="form-text">
+                                <textarea name="" id="message" placeholder="Message"></textarea>
+                                <div id="messageError" class="form-errors">
+                                    <p>Message is required</p>
+                                </div>
+                            </div>
+                            <div class="submit">
+                                <button class="submit-button" onclick=" validateForm()">Submit</button>
+                            </div>
+                            <div id="confirmation">Form submitted successfully !!</div>
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+    </main>
+
+    <footer>
+        <div class="foot">
+
+            <div class="foot-box">
+                <div class="foot-me">
+                    <div class="footer-intro">
+                        <h2>Saiesh Acharaya Photography</h2>
+                        <p>we are a passinate Photographer .</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="foot-box">
+                <div class="contact">
+
+                    <div class="icons">
+                        <h3>Lets Connect socialy </h3>
+                        <div class="i-list">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="con">
+                        <div class="mail">
+                            <i class="fa-regular fa-envelope"></i>
+                            <p>saieshacharayaphotography@gmail.com</p>
+                        </div>
+                        <div class="con-link">
+                            <a href="">Privacy Policy</a>
+                            <a href="/html/contact.html">Contact us</a>
+                            <!-- <a href="/html/gallery.html">Gallery</a>
+                            <a href="/html/contact.html">ContactUs</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footrights">
+            <div class="fcopy">
+                <p>copyright &copy; SaieshAcharayaPhotography. AllRightsReserved </p>
+
+            </div>
+        </div>
+    </footer>
+    <script src="/js/script.js"></script>
+    <script>
+
+        function validateName() {
+            let name = document.getElementById("name").value;
+            let pattern = /^[a-zA-Z. ]+$/;
+            if (!pattern.test(name)) {
+                document.getElementById("name").value = name.substring(0, name.length - 1);
+            }
+        }
+
+        function validateEmail() {
+            let email = document.getElementById("email").value;
+            let pattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            if (!pattern.test(email)) {
+                // Show an error message or highlight the email field in red
+            } else {
+                // Hide the error message or remove the red highlight
+            }
+        }
+
+        function validateForm() {
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let subject = document.getElementById("subject").value;
+            let message = document.getElementById("message").value;
+            let isValid = true;
+
+            if (!name) {
+                document.getElementById("nameError").style.display = "block";
+                isValid = false;
+            } else {
+                document.getElementById("nameError").style.display = "none";
+            }
+            if (!email) {
+                document.getElementById("emailError").style.display = "block";
+                isValid = false;
+            } else {
+                document.getElementById("emailError").style.display = "none";
+            }
+            if (!subject) {
+                document.getElementById("subjectError").style.display = "block";
+                isValid = false;
+            } else {
+                document.getElementById("subjectError").style.display = "none";
+            }
+            if (!message) {
+                document.getElementById("messageError").style.display = "block";
+                isValid = false;
+            } else {
+                document.getElementById("messageError").style.display = "none";
+            }
+            // return isValid;
+
+            //     if (isValid) {
+            //         document.getElementById("confirmation").style.display = "block";
+            //         return true;
+            //     } else {
+            //         return false;
+            //     }
+            // }
+            return isValid;
+        }
+        document.getElementById("form").addEventListener("submit", function (event) {
+            event.preventDefault();
+            if (validateForm()) {
+                document.getElementById("confirmation").style.display = "block";
+            }
+        });
+        document.getElementById("form").addEventListener("submit", function (event) {
+            event.preventDefault();
+            if (validateForm()) {
+                document.getElementById("confirmation").style.display = "block";
+            }
+        });
+
+
+    </script>
+</body>
+
+</html>

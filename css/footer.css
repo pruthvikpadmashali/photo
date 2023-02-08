@@ -1,0 +1,184 @@
+footer{
+    background-color: #f6f9fb;
+  }
+  footer .foot {
+      /* width: 100%; */
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:space-between ;
+      align-items: center;
+      justify-items: center;
+      /* flex-direction: row; */
+      padding: 20px;
+      /* background-color: #c8d8e4; */
+  }
+  
+  footer .foot-box {
+      text-align: left;
+      padding: 20px;
+      /* background-color: #74e57b;  */
+  }
+  footer .foot-me{
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+box-shadow: 0 26px 36px 0 rgba(0, 0, 0, 0.2);
+border-radius: 3px;
+
+    
+  }
+ 
+    footer  .footer-intro h2{
+    font-size: 30px;
+    text-align: left;
+    color: #090909;
+    padding: 10px;
+    }
+    footer  .footer-intro p{
+      font-size: 20px;
+      padding: 10px;
+      color: #000;
+    }
+    footer .contact {
+      display: flex;
+margin: auto;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+justify-items: center;
+max-width: 350px;
+    }
+    footer .contact .icons h3{
+font-size: 25px;
+text-align: center;
+    }
+    footer .contact .icons .i-list{
+      display: flex;
+margin: auto;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+justify-items: center;
+padding: 20px 10px;
+border-bottom: 1px solid red;
+  }
+  footer .contact .icons .i-list a i{
+    font-size: 25px;
+    color: #494747;
+
+  }
+  footer .contact .con{
+    padding: 20px 10px 0 10px;
+  }
+  footer .contact .con .mail{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+  }
+  footer .contact .con .mail i{
+    color: #000000;
+    padding: 5px;
+    font-size: 20px;
+  }
+    
+  footer .contact .con .mail p a{
+    font-size: 17px;
+    color: #000000;
+
+  }
+ 
+  footer .contact .con .mail p a:hover{
+    color: #c81212;
+
+  }
+    
+
+    footer  .contact .icons .i-list a .fa-facebook:hover {
+      color: #3b5998;
+  }
+  
+  footer .contact .icons .i-list a .fa-whatsapp:hover {
+      color: #25D366;
+  }
+  
+  footer .contact .icons .i-list a .fa-twitter:hover {
+      color: #00acee ;
+  }
+  footer .contact .icons .i-list a .fa-instagram:hover {
+      color:
+          /* #f09433  */
+          /* #e6683c  */
+          /* #dc2743  */
+          /* #cc2366 */
+          #bc1888;
+  }
+
+  footer .con-link{
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+  }
+  footer .con-link a{
+    color: #0a0a0a;
+    font-size: 16px;
+    padding: 0 0 0 20px;
+    
+  }
+  footer .con-link a:hover{
+    color: #6f08f6;
+
+  }
+  .footrights{
+    border-top: 1px solid #858383;
+    max-width: 1200px;
+    margin: auto;
+    padding: 25px;
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      background-color: #f6f9fb;
+  }
+  .footrights .fcopy p{
+    color: #919191;
+font-size: 18px;
+  }
+
+  @media only screen and (max-width: 1200px) { 
+    .footrights{
+    margin: auto 15px;
+  }
+  }
+
+  @media only screen and (max-width: 839px) {
+    footer .foot{
+justify-content: center;    }
+footer .foot .foot-box{
+margin: 10px;
+}
+}
+@media only screen and (max-width: 450px){
+  footer .foot-box {
+    padding: 0px;
+  }
+  footer .foot .foot-box{
+    margin: 25px 0 10px 0;
+    }
+}
+@media only screen and (max-width: 340px){
+  footer .contact .con .mail p{
+    font-size: 15px;
+  }
+  footer .contact .con{
+    padding: 0;
+  }
+}
