@@ -15,7 +15,7 @@ nav .header-options li a:hover{
 .element-1 {
   height: 100vh;
   width: 100%;
-  background-image: url(/bacj.jpg);
+  background-image: url(bacj.jpg);
   background-size: cover;
   background-attachment: fixed;
   /* opacity: .7; */
